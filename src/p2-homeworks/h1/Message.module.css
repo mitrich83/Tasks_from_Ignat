@@ -1,63 +1,48 @@
 .message {
-     width: 300px;
-    height: 70px;
-    background-color: greenyellow;
-    padding: 5px 5px 5px 60px;
+    display: flex;
+    align-items: flex-end;
+    margin: 10px;
+    background-color: #bbffbb;
+    width: 300px;
 }
 
-.avatar img{
-    position: absolute;
-    top:67px;
-    left: -14.7px;
-    width: 55px;
-    height: 55px;
-    background-color: greenyellow;
-    border-radius:55% 55% 55% 55%;
-    padding: 10px 10px 10px 10px;
+.avatar img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: black;
+    margin: 5px;
 }
 
 .messageBox {
-    height: 55px;
     background-color: black;
-    padding: 10px 5px 5px 20px;
     border-radius: 5px 5px 5px 0;
+    padding: 10px;
+}
+
+.angle {
+    width: 15px;
+    height: 15px;
+    background: radial-gradient(circle at 0 0 ,rgba(0,0,0,0) 15px, black 0);
 
 }
-.messageBox:before {
-    content: "";
-    display: block;
-    background: black;
-    position: absolute;
-    top: 116px;
-    left: 45px;
-    width: 25px;
-    height: 20px;
-
-}
-/*.messageBox:after {
-    content: "";
-    display: block;
-    background: greenyellow;
-    position: absolute;
-    top:85px;
-    left: 10px;
-    width: 50px;
-    height: 50px;
-    border-radius:50% 50% 50% 50%;
-}*/
 
 .name {
+   font-size: 20px;
+    font-weight: bold;
     color: blueviolet;
 }
 
 .messageText {
-    color: yellowgreen;
+   min-width: 150px;
+    max-width: 300px;
+    word-wrap: break-word;
+    color: #bbffbb;
+
 }
 
 .time {
-    color: darkolivegreen;
-    position: relative;
-    bottom: 10px;
-    left: 235px;;
-
+    display: flex;
+    justify-content: flex-end;
+    color: green;
 }
