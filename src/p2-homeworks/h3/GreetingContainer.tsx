@@ -33,6 +33,7 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, addUser
     const onKeyPressHandler = (e: KeyboardEvent<HTMLInputElement>) => {
         if(e.key === 'Enter' && name) {
             addUser()
+            setName('')
         }
     }
 
