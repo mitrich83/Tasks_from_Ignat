@@ -1,7 +1,12 @@
-.someClass {
-
+.errorMessage{
+    color: red;
 }
 
 .error {
+    color: red;
     border: 1px solid red;
+}
+
+s.notError {
+    border: 1px solid green;
 }
