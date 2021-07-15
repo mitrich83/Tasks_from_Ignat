@@ -15,7 +15,7 @@ type GreetingPropsType = {
 const Greeting: React.FC<GreetingPropsType> = (
     {name, setNameCallback, addUser, error, totalUsers, onKeyPressHandler}
 ) => {
-    const inputClass = error ? s.error : s.notError // need to fix with (?:)
+    const inputClass = error ? s.error : s.notError
 
 
     return (
