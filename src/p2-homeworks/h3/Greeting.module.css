@@ -1,12 +1,33 @@
 .errorMessage{
-    color: red;
+    background: red;
+    color: white;
+    border: black;
+    border-radius: 5px;
+    padding: 2px;
 }
 
 .error {
     color: red;
-    border: 1px solid red;
+    border: 2px solid red;
+    outline: transparent;
 }
 
 s.notError {
     border: 1px solid green;
+}
+
+.totalUsers {
+    padding: 2px;
+    border: green;
+    border-radius: 5px;
+    color: green;
+    background: #bbffbb;
+    margin: 5px;
+    width: 10px;
+}
+.buttonAdd {
+    margin: 5px;
+    background: cyan;
+    color: blue;
+    border-radius: 5px;
 }
