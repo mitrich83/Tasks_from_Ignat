@@ -1,0 +1,21 @@
+.container {
+    background-color: #bbffbb;
+    border: 2px solid blue;
+    width: 350px;
+    text-align: center;
+}
+
+.tasks {
+    justify-content: space-around;
+}
+
+.filterButtons {
+    display: flex;
+    justify-content: space-around;
+    background-color: yellowgreen;
+
+}
+
+.active {
+    background-color: #00ffff;
+}

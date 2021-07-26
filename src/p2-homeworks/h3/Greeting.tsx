@@ -1,6 +1,7 @@
 import React, {ChangeEvent, KeyboardEvent} from 'react'
 import s from './Greeting.module.css'
-import {UserType} from './HW3';
+import Input from './components/Input/Input';
+import Button from './components/Button/Button';
 
 type GreetingPropsType = {
     name: string
@@ -8,7 +9,7 @@ type GreetingPropsType = {
     addUser: () => void
     error: string
     totalUsers: number
-    onKeyPressHandler: (e:KeyboardEvent<HTMLInputElement>) => void
+    onKeyPressHandler: (e: KeyboardEvent<HTMLInputElement>) => void
 }
 
 // презентационная компонента (для верстальщика)
@@ -20,12 +21,17 @@ const Greeting: React.FC<GreetingPropsType> = (
 
     return (
         <div>
-            <input value={name} onChange={setNameCallback} className={inputClass} onKeyPress={onKeyPressHandler}/>
-            <span className={s.totalUsers}>{totalUsers}</span>
-            <button className={s.buttonAdd} onClick={addUser} disabled={!name}>add</button>
+            <div className={s.block}>
+                <Input value={name}
+                       onChange={setNameCallback}
+                       className={inputClass}
+                       onKeyPress={onKeyPressHandler}/>
+                <span className={s.totalUsers}>{totalUsers}</span>
+                <Button name={name}
+                        callback={addUser}
+                />
+            </div>
             <div><span className={s.errorMessage}>{error}</span></div>
-
-
         </div>
     )
 }
