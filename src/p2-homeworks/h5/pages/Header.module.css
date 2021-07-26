@@ -29,6 +29,11 @@
     background-color: lime;
 }
 
+.active {
+    background-color: maroon;
+    border-radius: 5px;
+    color: white;
+}
 
 
 
