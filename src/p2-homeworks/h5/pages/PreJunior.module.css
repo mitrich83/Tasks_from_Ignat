@@ -1,5 +1,36 @@
 
 .div {
-    display: inline-block;
+    position: relative;
+    right: 210px;
     margin: 5px;
+    transition: transform 1s;
 }
+
+.div:hover {
+    transform-origin: -50px;
+    transform: translate(210px, 0);
+}
+
+.preJunior {
+    color: yellowgreen;
+}
+
+.junior {
+    color: blue;
+}
+
+.juniorPlus {
+    color: red;
+}
+
+.button {
+    width: 20px;
+    height: 20px;
+    background-color: lime;
+}
+
+
+
+
+
+
