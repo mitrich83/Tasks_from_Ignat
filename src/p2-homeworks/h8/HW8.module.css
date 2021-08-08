@@ -1,0 +1,43 @@
+.container {
+ background-color: #bbffbb;
+ border: 2px solid blue;
+ width: 350px;
+ text-align: center;
+ font-family: BATAVIA;
+}
+
+.table {
+ justify-content: space-around;
+ font-family: BATAVIA;
+}
+
+.users {
+ display: flex;
+ justify-content: space-around;
+ padding: 10px;
+ padding: 2px;
+ font-family: BATAVIA;
+ font-size: 17px;
+ font-weight: bold;
+ text-align: center;
+
+}
+
+.name {
+ font-family: BATAVIA;
+}
+
+.age {
+ font-family: BATAVIA;
+}
+
+.allButtons {
+ display: flex;
+ justify-content: space-around;
+ background-color: yellowgreen;
+ font-family: BATAVIA;
+}
+
+.button {
+font-size: 10px;
+}

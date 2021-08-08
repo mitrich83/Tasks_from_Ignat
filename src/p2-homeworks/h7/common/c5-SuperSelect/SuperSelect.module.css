@@ -1,0 +1,12 @@
+.select {
+    border: 2px solid lime;
+    width: 80px;
+    font-family: BATAVIA;
+  align-items: center;
+}
+
+.selected {
+background-color: lime;
+    border: black;
+}
+
