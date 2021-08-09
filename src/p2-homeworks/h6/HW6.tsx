@@ -11,6 +11,8 @@ function HW6() {
     }
     const restore = () => {
         const newtext = restoreState('editable-span-value',value)
+        const newValue = localStorage.getItem('editable-span-value')
+        if(newValue)
          setValue(newtext)
     }
 
