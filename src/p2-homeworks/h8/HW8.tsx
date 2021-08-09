@@ -9,6 +9,21 @@ export type UserType = {
     age: number
 }
 
+export type sortUpActionType = {
+    type: 'sort'
+    payload: 'up'
+}
+export type sortDownActionType = {
+    type: 'sort'
+    payload: 'down'
+}
+export type sorCheckActionType = {
+    type: 'check'
+    payload: 18
+}
+
+export type ActionsType = sortUpActionType | sortDownActionType | sorCheckActionType
+
 const initialPeople: UserType[] = [
     {_id: 0, name: 'Кот', age: 3},
     {_id: 1, name: 'Александр', age: 66},

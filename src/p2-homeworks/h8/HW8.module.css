@@ -1,6 +1,7 @@
 .container {
  background-color: #bbffbb;
- border: 2px solid blue;
+ border: 2px solid cyan;
+ border-radius: 5px;
  width: 350px;
  text-align: center;
  font-family: BATAVIA;
