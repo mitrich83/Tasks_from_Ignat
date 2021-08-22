@@ -31,7 +31,6 @@ function HW10() {
                         <div className={s.rect3}></div>
                         <div className={s.rect4}></div>
                         <div className={s.rect5}></div>
-
                     </div>
                 ) : (
                     <div>
