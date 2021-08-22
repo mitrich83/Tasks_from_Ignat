@@ -1,0 +1,17 @@
+.timer {
+width: 124px;
+height: 80px;
+}
+.time {
+    background-color: #2F4F4F;
+    color: #00FF7F;
+    border:4px outset #FFA500;
+    padding:5px 20px;
+}
+
+.date {
+    background-color: #2F4F4F;
+    color: #00FF7F;
+    border: 4px outset #FFA500;
+    padding: 5px 20px;
+}
